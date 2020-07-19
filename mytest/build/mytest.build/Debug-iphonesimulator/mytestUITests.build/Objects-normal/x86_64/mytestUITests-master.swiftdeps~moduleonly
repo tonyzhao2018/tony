@@ -1,5 +1,0 @@
-version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
-options: "c8c4bef4b0d1cc044a13d9532a699af7"
-build_time: [1595118481, 151894000]
-inputs:
-  "/Users/knuproimac/Documents/testfolder/mytest/mytestUITests/mytestUITests.swift": [1595118481, 89149590]
