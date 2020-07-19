@@ -18,7 +18,7 @@
 		536DA54724C3AD6400F3C6E1 /* QMenulist+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536DA54324C3AD6400F3C6E1 /* QMenulist+CoreDataProperties.swift */; };
 		536DA54824C3AD6400F3C6E1 /* QMenuGroup+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536DA54424C3AD6400F3C6E1 /* QMenuGroup+CoreDataClass.swift */; };
 		536DA54924C3AD6400F3C6E1 /* QMenuGroup+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536DA54524C3AD6400F3C6E1 /* QMenuGroup+CoreDataProperties.swift */; };
-		536DA54B24C3C64A00F3C6E1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536DA54A24C3C64A00F3C6E1 /* SceneDelegate.swift */; };
+		536DA54D24C3E6DB00F3C6E1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536DA54C24C3E6DB00F3C6E1 /* SceneDelegate.swift */; };
 		5377D72F24AEBB0200800263 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5377D72E24AEBB0200800263 /* AppDelegate.swift */; };
 		5377D73624AEBB0200800263 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5377D73424AEBB0200800263 /* Main.storyboard */; };
 		5377D73B24AEBB0400800263 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5377D73A24AEBB0400800263 /* Assets.xcassets */; };
@@ -56,7 +56,7 @@
 		536DA54324C3AD6400F3C6E1 /* QMenulist+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QMenulist+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		536DA54424C3AD6400F3C6E1 /* QMenuGroup+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QMenuGroup+CoreDataClass.swift"; sourceTree = "<group>"; };
 		536DA54524C3AD6400F3C6E1 /* QMenuGroup+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QMenuGroup+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		536DA54A24C3C64A00F3C6E1 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = ../../../../.Trash/SceneDelegate.swift; sourceTree = "<group>"; };
+		536DA54C24C3E6DB00F3C6E1 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = SOURCE_ROOT; };
 		5377D72B24AEBB0200800263 /* mytest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mytest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5377D72E24AEBB0200800263 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5377D73524AEBB0200800263 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -141,12 +141,12 @@
 		5377D72D24AEBB0200800263 /* mytest */ = {
 			isa = PBXGroup;
 			children = (
+				536DA54C24C3E6DB00F3C6E1 /* SceneDelegate.swift */,
 				536DA52424C279B300F3C6E1 /* menu */,
 				5377D79124B2A45400800263 /* dataModel */,
 				5377D72E24AEBB0200800263 /* AppDelegate.swift */,
 				5377D73424AEBB0200800263 /* Main.storyboard */,
 				5377D73A24AEBB0400800263 /* Assets.xcassets */,
-				536DA54A24C3C64A00F3C6E1 /* SceneDelegate.swift */,
 				5377D73C24AEBB0400800263 /* LaunchScreen.storyboard */,
 				5377D73F24AEBB0400800263 /* Info.plist */,
 			);
@@ -322,10 +322,10 @@
 				536DA52E24C279CA00F3C6E1 /* menuItemTableViewCell.swift in Sources */,
 				536DA54724C3AD6400F3C6E1 /* QMenulist+CoreDataProperties.swift in Sources */,
 				536DA54824C3AD6400F3C6E1 /* QMenuGroup+CoreDataClass.swift in Sources */,
+				536DA54D24C3E6DB00F3C6E1 /* SceneDelegate.swift in Sources */,
 				536DA52F24C279CA00F3C6E1 /* menuHeaderCell.swift in Sources */,
 				536DA53824C3958D00F3C6E1 /* menu.xcdatamodeld in Sources */,
 				536DA52324C274A700F3C6E1 /* menuViewController.swift in Sources */,
-				536DA54B24C3C64A00F3C6E1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
