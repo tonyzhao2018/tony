@@ -1,0 +1,687 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "menuDataController"
+provides-nominal:
+- "6mytest18menuDataControllerC"
+provides-member:
+- ["6mytest18menuDataControllerC", ""]
+provides-dynamic-lookup:
+- "checkDBEmpty"
+- "deleteOneMenu"
+- "getMenuGroupList"
+- "getMenuItemList"
+- "insertOneGroup"
+- "insertOneMenu"
+- "managedObjectContext"
+- "updateOneMenu"
+depends-top-level:
+- !private "-"
+- !private "=="
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- !private "Bundle"
+- "CastingPrecedence"
+- !private "FileManager"
+- !private "FloatLiteralType"
+- !private "Int"
+- !private "IntegerLiteralType"
+- "ModelMenuGroup"
+- "ModelMenuItem"
+- !private "NSEntityDescription"
+- !private "NSFetchRequest"
+- !private "NSFetchRequestResult"
+- !private "NSManagedObject"
+- "NSManagedObjectContext"
+- !private "NSManagedObjectModel"
+- "NSObject"
+- !private "NSPersistentStoreCoordinator"
+- !private "NSSQLiteStoreType"
+- !private "QMenuGroup"
+- !private "QMenulist"
+- !private "String"
+- !private "StringLiteralType"
+- !private "fatalError"
+- "menuDataController"
+- !private "print"
+depends-member:
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["Sa", "append"]
+- !private ["Sa", "count"]
+- !private ["Sa", "endIndex"]
+- !private ["Sa", "subscript"]
+- !private ["SK", "append"]
+- !private ["SK", "count"]
+- !private ["SK", "endIndex"]
+- !private ["SK", "subscript"]
+- !private ["Sz", "init"]
+- !private ["So8NSBundleC", "main"]
+- !private ["So8NSBundleC", "url"]
+- !private ["s7CVarArgP", "Bundle"]
+- !private ["s7CVarArgP", "FileManager"]
+- !private ["s7CVarArgP", "Int"]
+- !private ["s7CVarArgP", "ModelMenuGroup"]
+- !private ["s7CVarArgP", "ModelMenuItem"]
+- !private ["s7CVarArgP", "NSEntityDescription"]
+- !private ["s7CVarArgP", "NSFetchRequest"]
+- !private ["s7CVarArgP", "NSManagedObjectContext"]
+- !private ["s7CVarArgP", "NSManagedObjectModel"]
+- !private ["s7CVarArgP", "NSPersistentStoreCoordinator"]
+- !private ["s7CVarArgP", "NSSQLiteStoreType"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "addPersistentStore"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "default"]
+- !private ["s7CVarArgP", "delete"]
+- !private ["s7CVarArgP", "endIndex"]
+- !private ["s7CVarArgP", "fatalError"]
+- !private ["s7CVarArgP", "fetch"]
+- !private ["s7CVarArgP", "groupID"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "insertNewObject"]
+- !private ["s7CVarArgP", "itemID"]
+- !private ["s7CVarArgP", "itemName"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "managedObjectContext"]
+- !private ["s7CVarArgP", "name"]
+- !private ["s7CVarArgP", "persistentStoreCoordinator"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "save"]
+- !private ["s7CVarArgP", "setValue"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "url"]
+- !private ["s7CVarArgP", "urls"]
+- !private ["s7CVarArgP", "value"]
+- !private ["Sl", "append"]
+- !private ["Sl", "count"]
+- !private ["Sl", "endIndex"]
+- !private ["Sl", "subscript"]
+- !private ["SL", "init"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["10Foundation15ContiguousBytesP", "count"]
+- !private ["10Foundation15ContiguousBytesP", "endIndex"]
+- !private ["10Foundation15ContiguousBytesP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "Bundle"]
+- !private ["s28CustomDebugStringConvertibleP", "FileManager"]
+- !private ["s28CustomDebugStringConvertibleP", "Int"]
+- !private ["s28CustomDebugStringConvertibleP", "ModelMenuGroup"]
+- !private ["s28CustomDebugStringConvertibleP", "ModelMenuItem"]
+- !private ["s28CustomDebugStringConvertibleP", "NSEntityDescription"]
+- !private ["s28CustomDebugStringConvertibleP", "NSFetchRequest"]
+- !private ["s28CustomDebugStringConvertibleP", "NSManagedObjectContext"]
+- !private ["s28CustomDebugStringConvertibleP", "NSManagedObjectModel"]
+- !private ["s28CustomDebugStringConvertibleP", "NSPersistentStoreCoordinator"]
+- !private ["s28CustomDebugStringConvertibleP", "NSSQLiteStoreType"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "addPersistentStore"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "appendingPathComponent"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "default"]
+- !private ["s28CustomDebugStringConvertibleP", "delete"]
+- !private ["s28CustomDebugStringConvertibleP", "endIndex"]
+- !private ["s28CustomDebugStringConvertibleP", "fatalError"]
+- !private ["s28CustomDebugStringConvertibleP", "fetch"]
+- !private ["s28CustomDebugStringConvertibleP", "groupID"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "insertNewObject"]
+- !private ["s28CustomDebugStringConvertibleP", "itemID"]
+- !private ["s28CustomDebugStringConvertibleP", "itemName"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "managedObjectContext"]
+- !private ["s28CustomDebugStringConvertibleP", "name"]
+- !private ["s28CustomDebugStringConvertibleP", "persistentStoreCoordinator"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "save"]
+- !private ["s28CustomDebugStringConvertibleP", "setValue"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "url"]
+- !private ["s28CustomDebugStringConvertibleP", "urls"]
+- !private ["s28CustomDebugStringConvertibleP", "value"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "endIndex"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "Bundle"]
+- !private ["s23CustomStringConvertibleP", "FileManager"]
+- !private ["s23CustomStringConvertibleP", "Int"]
+- !private ["s23CustomStringConvertibleP", "ModelMenuGroup"]
+- !private ["s23CustomStringConvertibleP", "ModelMenuItem"]
+- !private ["s23CustomStringConvertibleP", "NSEntityDescription"]
+- !private ["s23CustomStringConvertibleP", "NSFetchRequest"]
+- !private ["s23CustomStringConvertibleP", "NSManagedObjectContext"]
+- !private ["s23CustomStringConvertibleP", "NSManagedObjectModel"]
+- !private ["s23CustomStringConvertibleP", "NSPersistentStoreCoordinator"]
+- !private ["s23CustomStringConvertibleP", "NSSQLiteStoreType"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "addPersistentStore"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "appendingPathComponent"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "default"]
+- !private ["s23CustomStringConvertibleP", "delete"]
+- !private ["s23CustomStringConvertibleP", "endIndex"]
+- !private ["s23CustomStringConvertibleP", "fatalError"]
+- !private ["s23CustomStringConvertibleP", "fetch"]
+- !private ["s23CustomStringConvertibleP", "groupID"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "insertNewObject"]
+- !private ["s23CustomStringConvertibleP", "itemID"]
+- !private ["s23CustomStringConvertibleP", "itemName"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "managedObjectContext"]
+- !private ["s23CustomStringConvertibleP", "name"]
+- !private ["s23CustomStringConvertibleP", "persistentStoreCoordinator"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "save"]
+- !private ["s23CustomStringConvertibleP", "setValue"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "url"]
+- !private ["s23CustomStringConvertibleP", "urls"]
+- !private ["s23CustomStringConvertibleP", "value"]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["10Foundation12DataProtocolP", "count"]
+- !private ["10Foundation12DataProtocolP", "endIndex"]
+- !private ["10Foundation12DataProtocolP", "subscript"]
+- !private ["Se", "append"]
+- !private ["Se", "appendingPathComponent"]
+- !private ["Se", "count"]
+- !private ["Se", "endIndex"]
+- !private ["Se", "init"]
+- !private ["Se", "subscript"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SE", "append"]
+- !private ["SE", "appendingPathComponent"]
+- !private ["SE", "count"]
+- !private ["SE", "endIndex"]
+- !private ["SE", "init"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "Bundle"]
+- !private ["SQ", "FileManager"]
+- !private ["SQ", "Int"]
+- !private ["SQ", "ModelMenuGroup"]
+- !private ["SQ", "ModelMenuItem"]
+- !private ["SQ", "NSEntityDescription"]
+- !private ["SQ", "NSFetchRequest"]
+- !private ["SQ", "NSManagedObjectContext"]
+- !private ["SQ", "NSManagedObjectModel"]
+- !private ["SQ", "NSPersistentStoreCoordinator"]
+- !private ["SQ", "NSSQLiteStoreType"]
+- ["SQ", ""]
+- !private ["SQ", "addPersistentStore"]
+- !private ["SQ", "append"]
+- !private ["SQ", "appendingPathComponent"]
+- !private ["SQ", "count"]
+- !private ["SQ", "default"]
+- !private ["SQ", "delete"]
+- !private ["SQ", "documentDirectory"]
+- !private ["SQ", "endIndex"]
+- !private ["SQ", "fatalError"]
+- !private ["SQ", "fetch"]
+- !private ["SQ", "groupID"]
+- !private ["SQ", "init"]
+- !private ["SQ", "insertNewObject"]
+- !private ["SQ", "itemID"]
+- !private ["SQ", "itemName"]
+- !private ["SQ", "main"]
+- !private ["SQ", "mainQueueConcurrencyType"]
+- !private ["SQ", "managedObjectContext"]
+- !private ["SQ", "name"]
+- !private ["SQ", "persistentStoreCoordinator"]
+- !private ["SQ", "print"]
+- !private ["SQ", "save"]
+- !private ["SQ", "setValue"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "url"]
+- !private ["SQ", "urls"]
+- !private ["SQ", "userDomainMask"]
+- !private ["SQ", "value"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "endIndex"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", "userDomainMask"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["So13NSFileManagerC", "default"]
+- !private ["So13NSFileManagerC", "urls"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["SH", "Bundle"]
+- !private ["SH", "FileManager"]
+- !private ["SH", "Int"]
+- !private ["SH", "ModelMenuGroup"]
+- !private ["SH", "ModelMenuItem"]
+- !private ["SH", "NSEntityDescription"]
+- !private ["SH", "NSFetchRequest"]
+- !private ["SH", "NSManagedObjectContext"]
+- !private ["SH", "NSManagedObjectModel"]
+- !private ["SH", "NSPersistentStoreCoordinator"]
+- !private ["SH", "NSSQLiteStoreType"]
+- ["SH", ""]
+- !private ["SH", "addPersistentStore"]
+- !private ["SH", "append"]
+- !private ["SH", "appendingPathComponent"]
+- !private ["SH", "count"]
+- !private ["SH", "default"]
+- !private ["SH", "delete"]
+- !private ["SH", "documentDirectory"]
+- !private ["SH", "endIndex"]
+- !private ["SH", "fatalError"]
+- !private ["SH", "fetch"]
+- !private ["SH", "groupID"]
+- !private ["SH", "init"]
+- !private ["SH", "insertNewObject"]
+- !private ["SH", "itemID"]
+- !private ["SH", "itemName"]
+- !private ["SH", "main"]
+- !private ["SH", "mainQueueConcurrencyType"]
+- !private ["SH", "managedObjectContext"]
+- !private ["SH", "name"]
+- !private ["SH", "persistentStoreCoordinator"]
+- !private ["SH", "print"]
+- !private ["SH", "save"]
+- !private ["SH", "setValue"]
+- !private ["SH", "subscript"]
+- !private ["SH", "url"]
+- !private ["SH", "urls"]
+- !private ["SH", "value"]
+- !private ["Si", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["6mytest14ModelMenuGroupC", "groupID"]
+- !private ["6mytest14ModelMenuGroupC", "init"]
+- !private ["6mytest14ModelMenuGroupC", "name"]
+- !private ["6mytest13ModelMenuItemC", "groupID"]
+- !private ["6mytest13ModelMenuItemC", "init"]
+- !private ["6mytest13ModelMenuItemC", "itemID"]
+- !private ["6mytest13ModelMenuItemC", "itemName"]
+- !private ["SM", "append"]
+- !private ["SM", "count"]
+- !private ["SM", "endIndex"]
+- !private ["SM", "subscript"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "count"]
+- !private ["10Foundation19MutableDataProtocolP", "endIndex"]
+- !private ["10Foundation19MutableDataProtocolP", "subscript"]
+- !private ["So8NSCodingP", "delete"]
+- !private ["So8NSCodingP", "fetch"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "insertNewObject"]
+- !private ["So8NSCodingP", "persistentStoreCoordinator"]
+- !private ["So8NSCodingP", "save"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "insertNewObject"]
+- !private ["So19NSEntityDescriptionC", "insertNewObject"]
+- !private ["So17NSFastEnumerationP", "init"]
+- !private ["So17NSFastEnumerationP", "insertNewObject"]
+- !private ["So14NSFetchRequestC", "init"]
+- !private ["So20NSFetchRequestResultP", "itemID"]
+- !private ["So20NSFetchRequestResultP", "itemName"]
+- !private ["So20NSFetchRequestResultP", "setValue"]
+- !private ["So20NSFetchRequestResultP", "value"]
+- !private ["So9NSLockingP", "addPersistentStore"]
+- !private ["So9NSLockingP", "delete"]
+- !private ["So9NSLockingP", "fetch"]
+- !private ["So9NSLockingP", "init"]
+- !private ["So9NSLockingP", "persistentStoreCoordinator"]
+- !private ["So9NSLockingP", "save"]
+- !private ["So15NSManagedObjectC", "itemID"]
+- !private ["So15NSManagedObjectC", "itemName"]
+- !private ["So15NSManagedObjectC", "setValue"]
+- !private ["So15NSManagedObjectC", "value"]
+- !private ["So22NSManagedObjectContextC", "delete"]
+- !private ["So22NSManagedObjectContextC", "fetch"]
+- !private ["So22NSManagedObjectContextC", "init"]
+- !private ["So22NSManagedObjectContextC", "persistentStoreCoordinator"]
+- !private ["So22NSManagedObjectContextC", "save"]
+- !private ["So37NSManagedObjectContextConcurrencyTypeV", "mainQueueConcurrencyType"]
+- !private ["So20NSManagedObjectModelC", "init"]
+- ["So8NSObjectC", "Bool"]
+- !private ["So8NSObjectC", "Bundle"]
+- !private ["So8NSObjectC", "FileManager"]
+- !private ["So8NSObjectC", "Int"]
+- ["So8NSObjectC", "ModelMenuGroup"]
+- ["So8NSObjectC", "ModelMenuItem"]
+- !private ["So8NSObjectC", "NSEntityDescription"]
+- !private ["So8NSObjectC", "NSFetchRequest"]
+- !private ["So8NSObjectC", "NSFetchRequestResult"]
+- !private ["So8NSObjectC", "NSManagedObject"]
+- ["So8NSObjectC", "NSManagedObjectContext"]
+- !private ["So8NSObjectC", "NSManagedObjectModel"]
+- !private ["So8NSObjectC", "NSPersistentStoreCoordinator"]
+- !private ["So8NSObjectC", "NSSQLiteStoreType"]
+- !private ["So8NSObjectC", "QMenuGroup"]
+- !private ["So8NSObjectC", "QMenulist"]
+- !private ["So8NSObjectC", "String"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "addPersistentStore"]
+- ["So8NSObjectC", "checkDBEmpty"]
+- !private ["So8NSObjectC", "default"]
+- !private ["So8NSObjectC", "delete"]
+- ["So8NSObjectC", "deleteOneMenu"]
+- !private ["So8NSObjectC", "fatalError"]
+- !private ["So8NSObjectC", "fetch"]
+- ["So8NSObjectC", "getMenuGroupList"]
+- ["So8NSObjectC", "getMenuItemList"]
+- !private ["So8NSObjectC", "groupID"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "insertNewObject"]
+- ["So8NSObjectC", "insertOneGroup"]
+- ["So8NSObjectC", "insertOneMenu"]
+- !private ["So8NSObjectC", "itemID"]
+- !private ["So8NSObjectC", "itemName"]
+- !private ["So8NSObjectC", "main"]
+- ["So8NSObjectC", "managedObjectContext"]
+- !private ["So8NSObjectC", "name"]
+- !private ["So8NSObjectC", "persistentStoreCoordinator"]
+- !private ["So8NSObjectC", "print"]
+- !private ["So8NSObjectC", "save"]
+- !private ["So8NSObjectC", "setValue"]
+- ["So8NSObjectC", "updateOneMenu"]
+- !private ["So8NSObjectC", "url"]
+- !private ["So8NSObjectC", "urls"]
+- !private ["So8NSObjectC", "value"]
+- !private ["So8NSObjectP", "Bundle"]
+- !private ["So8NSObjectP", "FileManager"]
+- !private ["So8NSObjectP", "Int"]
+- !private ["So8NSObjectP", "ModelMenuGroup"]
+- !private ["So8NSObjectP", "ModelMenuItem"]
+- !private ["So8NSObjectP", "NSEntityDescription"]
+- !private ["So8NSObjectP", "NSFetchRequest"]
+- !private ["So8NSObjectP", "NSManagedObjectContext"]
+- !private ["So8NSObjectP", "NSManagedObjectModel"]
+- !private ["So8NSObjectP", "NSPersistentStoreCoordinator"]
+- !private ["So8NSObjectP", "NSSQLiteStoreType"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "addPersistentStore"]
+- !private ["So8NSObjectP", "default"]
+- !private ["So8NSObjectP", "delete"]
+- !private ["So8NSObjectP", "fatalError"]
+- !private ["So8NSObjectP", "fetch"]
+- !private ["So8NSObjectP", "groupID"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "insertNewObject"]
+- !private ["So8NSObjectP", "itemID"]
+- !private ["So8NSObjectP", "itemName"]
+- !private ["So8NSObjectP", "main"]
+- !private ["So8NSObjectP", "managedObjectContext"]
+- !private ["So8NSObjectP", "name"]
+- !private ["So8NSObjectP", "persistentStoreCoordinator"]
+- !private ["So8NSObjectP", "print"]
+- !private ["So8NSObjectP", "save"]
+- !private ["So8NSObjectP", "setValue"]
+- !private ["So8NSObjectP", "url"]
+- !private ["So8NSObjectP", "urls"]
+- !private ["So8NSObjectP", "value"]
+- !private ["So28NSPersistentStoreCoordinatorC", "addPersistentStore"]
+- !private ["So28NSPersistentStoreCoordinatorC", "init"]
+- !private ["So24NSPersistentStoreRequestC", "init"]
+- !private ["Sj", "init"]
+- !private ["7Combine16ObservableObjectP", "itemID"]
+- !private ["7Combine16ObservableObjectP", "itemName"]
+- !private ["7Combine16ObservableObjectP", "setValue"]
+- !private ["7Combine16ObservableObjectP", "value"]
+- !private ["s9OptionSetP", "userDomainMask"]
+- !private ["6mytest10QMenuGroupC", "setValue"]
+- !private ["6mytest9QMenulistC", "itemID"]
+- !private ["6mytest9QMenulistC", "itemName"]
+- !private ["6mytest9QMenulistC", "setValue"]
+- !private ["Sk", "append"]
+- !private ["Sk", "count"]
+- !private ["Sk", "endIndex"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", "append"]
+- !private ["Sm", "count"]
+- !private ["Sm", "endIndex"]
+- !private ["Sm", "subscript"]
+- !private ["SY", "documentDirectory"]
+- !private ["SY", "mainQueueConcurrencyType"]
+- !private ["SY", "userDomainMask"]
+- !private ["10Foundation20ReferenceConvertibleP", "appendingPathComponent"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["So21NSSearchPathDirectoryV", "documentDirectory"]
+- !private ["So22NSSearchPathDomainMaskV", "userDomainMask"]
+- !private ["ST", "append"]
+- !private ["ST", "count"]
+- !private ["ST", "endIndex"]
+- !private ["ST", "subscript"]
+- !private ["s10SetAlgebraP", "userDomainMask"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["Sx", "init"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["10Foundation3URLV", "appendingPathComponent"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "endIndex"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "appendingPathComponent"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "endIndex"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "appendingPathComponent"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- !private ["s19_HasContiguousBytesP", "endIndex"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "endIndex"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Bundle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "FileManager"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Int"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ModelMenuGroup"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ModelMenuItem"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSEntityDescription"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSFetchRequest"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSManagedObjectContext"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSManagedObjectModel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSPersistentStoreCoordinator"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSSQLiteStoreType"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addPersistentStore"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "default"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delete"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fatalError"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fetch"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "groupID"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "insertNewObject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "itemID"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "itemName"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "managedObjectContext"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "name"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "persistentStoreCoordinator"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "save"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "url"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "urls"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "value"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Bundle"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "FileManager"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Int"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ModelMenuGroup"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ModelMenuItem"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "NSEntityDescription"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "NSFetchRequest"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "NSManagedObjectContext"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "NSManagedObjectModel"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "NSPersistentStoreCoordinator"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "NSSQLiteStoreType"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "addPersistentStore"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "default"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "delete"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "fatalError"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "fetch"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "groupID"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "insertNewObject"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "itemID"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "itemName"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "main"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "managedObjectContext"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "name"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "persistentStoreCoordinator"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "print"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "save"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setValue"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "url"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "urls"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "value"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "appendingPathComponent"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "endIndex"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- ["6mytest18menuDataControllerC", "Bool"]
+- !private ["6mytest18menuDataControllerC", "Bundle"]
+- !private ["6mytest18menuDataControllerC", "FileManager"]
+- !private ["6mytest18menuDataControllerC", "Int"]
+- ["6mytest18menuDataControllerC", "ModelMenuGroup"]
+- ["6mytest18menuDataControllerC", "ModelMenuItem"]
+- !private ["6mytest18menuDataControllerC", "NSEntityDescription"]
+- !private ["6mytest18menuDataControllerC", "NSFetchRequest"]
+- !private ["6mytest18menuDataControllerC", "NSFetchRequestResult"]
+- !private ["6mytest18menuDataControllerC", "NSManagedObject"]
+- ["6mytest18menuDataControllerC", "NSManagedObjectContext"]
+- !private ["6mytest18menuDataControllerC", "NSManagedObjectModel"]
+- !private ["6mytest18menuDataControllerC", "NSPersistentStoreCoordinator"]
+- !private ["6mytest18menuDataControllerC", "NSSQLiteStoreType"]
+- !private ["6mytest18menuDataControllerC", "QMenuGroup"]
+- !private ["6mytest18menuDataControllerC", "QMenulist"]
+- !private ["6mytest18menuDataControllerC", "String"]
+- ["6mytest18menuDataControllerC", "checkDBEmpty"]
+- ["6mytest18menuDataControllerC", "deinit"]
+- ["6mytest18menuDataControllerC", "deleteOneMenu"]
+- !private ["6mytest18menuDataControllerC", "fatalError"]
+- ["6mytest18menuDataControllerC", "getMenuGroupList"]
+- ["6mytest18menuDataControllerC", "getMenuItemList"]
+- ["6mytest18menuDataControllerC", "init"]
+- ["6mytest18menuDataControllerC", "insertOneGroup"]
+- ["6mytest18menuDataControllerC", "insertOneMenu"]
+- ["6mytest18menuDataControllerC", "managedObjectContext"]
+- !private ["6mytest18menuDataControllerC", "print"]
+- ["6mytest18menuDataControllerC", "updateOneMenu"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "Sa"
+- !private "SK"
+- !private "Sz"
+- !private "So8NSBundleC"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "So13NSFileManagerC"
+- !private "s17FixedWidthIntegerP"
+- "SH"
+- !private "Si"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "6mytest14ModelMenuGroupC"
+- !private "6mytest13ModelMenuItemC"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So19NSEntityDescriptionC"
+- !private "So17NSFastEnumerationP"
+- !private "So14NSFetchRequestC"
+- !private "So20NSFetchRequestResultP"
+- !private "So9NSLockingP"
+- !private "So15NSManagedObjectC"
+- !private "So22NSManagedObjectContextC"
+- !private "So37NSManagedObjectContextConcurrencyTypeV"
+- !private "So20NSManagedObjectModelC"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So28NSPersistentStoreCoordinatorC"
+- !private "So24NSPersistentStoreRequestC"
+- !private "Sj"
+- !private "7Combine16ObservableObjectP"
+- !private "s9OptionSetP"
+- !private "6mytest10QMenuGroupC"
+- !private "6mytest9QMenulistC"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "s10SIMDScalarP"
+- !private "So21NSSearchPathDirectoryV"
+- !private "So22NSSearchPathDomainMaskV"
+- !private "ST"
+- !private "s10SetAlgebraP"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "s27StringInterpolationProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "10Foundation3URLV"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- "6mytest18menuDataControllerC"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "7febbde1297368d049e2b8b24e40a4b4"

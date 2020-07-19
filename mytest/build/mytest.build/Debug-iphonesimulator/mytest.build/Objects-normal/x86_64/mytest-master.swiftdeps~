@@ -1,0 +1,14 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "9d9ec8eb079b7cb5e7078e6855891803"
+build_time: [1595122246, 297668000]
+inputs:
+  "/Users/knuproimac/Documents/testfolder/mytest/mytest/AppDelegate.swift": [1595118790, 704470284]
+  "/Users/knuproimac/Documents/testfolder/mytest/mytest/dataModel/QMenuGroup+CoreDataProperties.swift": [1595110883, 882378758]
+  "/Users/knuproimac/Documents/testfolder/mytest/mytest/dataModel/QMenulist+CoreDataClass.swift": [1595110883, 880824856]
+  "/Users/knuproimac/Documents/testfolder/mytest/mytest/menu/menuDataController.swift": [1595118853, 264130456]
+  "/Users/knuproimac/Documents/testfolder/mytest/mytest/menu/menuItemTableViewCell.swift": [1595120160, 806340390]
+  "/Users/knuproimac/Documents/testfolder/mytest/mytest/dataModel/QMenulist+CoreDataProperties.swift": [1595110883, 882315145]
+  "/Users/knuproimac/Documents/testfolder/mytest/mytest/dataModel/QMenuGroup+CoreDataClass.swift": [1595110883, 879616284]
+  "/Users/knuproimac/Documents/testfolder/mytest/mytest/menu/menuHeaderCell.swift": [1595090284, 994004668]
+  "/Users/knuproimac/Documents/testfolder/mytest/mytest/menu/menuViewController.swift": [1595122246, 220795941]
+  "/Users/knuproimac/.Trash/SceneDelegate.swift": [1595117289, 753207360]
