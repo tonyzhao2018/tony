@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="hCd-Ta-88g">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Menu View Controller-->
+        <scene sceneID="sKf-o6-Z9h">
+            <objects>
+                <viewController id="hCd-Ta-88g" customClass="menuViewController" customModule="mytest" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gGj-Ig-Ylb"/>
+                        <viewControllerLayoutGuide type="bottom" id="L58-di-2yS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gMr-jL-NPW">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ndY-se-bod">
+                                <rect key="frame" x="20" y="44" width="374" height="818"/>
+                                <subviews>
+                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="xKI-L0-o8V">
+                                        <rect key="frame" x="10" y="10" width="354" height="798"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <connections>
+                                            <outlet property="dataSource" destination="hCd-Ta-88g" id="oAt-3k-AdM"/>
+                                            <outlet property="delegate" destination="hCd-Ta-88g" id="qdW-vP-28y"/>
+                                        </connections>
+                                    </tableView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="xKI-L0-o8V" secondAttribute="trailing" constant="10" id="C7N-ic-Ji6"/>
+                                    <constraint firstItem="xKI-L0-o8V" firstAttribute="top" secondItem="ndY-se-bod" secondAttribute="top" constant="10" id="KNh-Xl-PYV"/>
+                                    <constraint firstAttribute="bottom" secondItem="xKI-L0-o8V" secondAttribute="bottom" constant="10" id="fcX-rU-22M"/>
+                                    <constraint firstItem="xKI-L0-o8V" firstAttribute="leading" secondItem="ndY-se-bod" secondAttribute="leading" constant="10" id="fsV-6C-xOK"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.92720430594363301" green="1" blue="0.84877639341562228" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="ndY-se-bod" firstAttribute="leading" secondItem="gMr-jL-NPW" secondAttribute="leadingMargin" id="583-JX-UDr"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ndY-se-bod" secondAttribute="trailing" id="EnF-u8-Sep"/>
+                            <constraint firstItem="L58-di-2yS" firstAttribute="top" secondItem="ndY-se-bod" secondAttribute="bottom" id="XMX-7k-C4e"/>
+                            <constraint firstItem="ndY-se-bod" firstAttribute="top" secondItem="gGj-Ig-Ylb" secondAttribute="bottom" id="eOb-Yr-QgJ"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="eKZ-FR-1yT"/>
+                    <connections>
+                        <outlet property="tvFilters" destination="xKI-L0-o8V" id="0sZ-il-uQx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="c39-mw-N6l" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-5104" y="-1308"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="C1z-V8-PnJ">
+            <objects>
+                <navigationController id="zlx-Mm-dYS" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="9RH-Jv-Naa">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1LA-Ar-fZJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-5861" y="-1339"/>
+        </scene>
+    </scenes>
+</document>
